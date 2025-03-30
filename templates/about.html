@@ -1,0 +1,166 @@
+{% extends 'base.html' %}
+
+{% block title %}About - Plant Go{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+            <h1 class="display-5 fw-bold text-success mb-4">About Our Project</h1>
+            <p class="lead mb-4">
+                Plant Go is an AI-powered application designed to help farmers and gardeners identify plant diseases quickly and accurately.
+            </p>
+        </div>
+    </div>
+    
+    <div class="row mb-5">
+        <div class="col-md-6 mb-4 mb-md-0">
+            <div class="card border-0 shadow h-100">
+                <div class="card-body p-4">
+                    <h2 class="h4 text-success mb-3">Our Mission</h2>
+                    <p>
+                        Our mission is to make advanced plant disease diagnostics accessible to everyone, from commercial farmers to home gardeners. By leveraging artificial intelligence and machine learning, we aim to:
+                    </p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            Reduce crop losses due to undiagnosed or misdiagnosed plant diseases
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            Promote sustainable farming and gardening practices
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            Minimize unnecessary pesticide use through precise diagnostics
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            Educate users about plant diseases and their prevention
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="card border-0 shadow h-100">
+                <div class="card-body p-4">
+                    <h2 class="h4 text-success mb-3">The Technology</h2>
+                    <p>
+                        Our Plant Go system is powered by a convolutional neural network (CNN) trained on thousands of images of healthy and diseased plants. The model can recognize:
+                    </p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="fas fa-leaf text-success me-2"></i>
+                            39 different classes of plant diseases and healthy plants
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-leaf text-success me-2"></i>
+                            14 different plant species including common crops and garden plants
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-leaf text-success me-2"></i>
+                            Various disease symptoms with high accuracy
+                        </li>
+                        <li>
+                            <i class="fas fa-leaf text-success me-2"></i>
+                            Based on state-of-the-art deep learning architecture
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="card border-0 shadow">
+                <div class="card-body p-4">
+                    <h2 class="h4 text-success mb-4">How It Works</h2>
+                    <div class="row g-4">
+                        <div class="col-md-3 text-center">
+                            <div class="mb-3">
+                                <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center mx-auto" style="width: 80px; height: 80px;">
+                                    <i class="fas fa-camera fa-2x"></i>
+                                </div>
+                            </div>
+                            <h5>Step 1</h5>
+                            <p>Take a photo of your plant's affected areas</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="mb-3">
+                                <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center mx-auto" style="width: 80px; height: 80px;">
+                                    <i class="fas fa-upload fa-2x"></i>
+                                </div>
+                            </div>
+                            <h5>Step 2</h5>
+                            <p>Upload the image to our system for analysis</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="mb-3">
+                                <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center mx-auto" style="width: 80px; height: 80px;">
+                                    <i class="fas fa-brain fa-2x"></i>
+                                </div>
+                            </div>
+                            <h5>Step 3</h5>
+                            <p>Our AI processes and analyzes the image</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="mb-3">
+                                <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center mx-auto" style="width: 80px; height: 80px;">
+                                    <i class="fas fa-clipboard-list fa-2x"></i>
+                                </div>
+                            </div>
+                            <h5>Step 4</h5>
+                            <p>Get detailed results and treatment options</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-12">
+            <div class="card border-0 shadow">
+                <div class="card-body p-4">
+                    <h2 class="h4 text-success mb-4">Our Team</h2>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <div class="rounded-circle bg-light d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 100px; height: 100px;">
+                                    <i class="fas fa-user fa-3x text-success"></i>
+                                </div>
+                                <h5>John Doe</h5>
+                                <p class="text-muted">Machine Learning Engineer</p>
+                                <p>Specializes in computer vision and deep learning models for agricultural applications.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <div class="rounded-circle bg-light d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 100px; height: 100px;">
+                                    <i class="fas fa-user fa-3x text-success"></i>
+                                </div>
+                                <h5>Jane Smith</h5>
+                                <p class="text-muted">Plant Pathologist</p>
+                                <p>Expert in plant diseases with over 10 years of experience in agriculture research.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <div class="rounded-circle bg-light d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 100px; height: 100px;">
+                                    <i class="fas fa-user fa-3x text-success"></i>
+                                </div>
+                                <h5>Alex Johnson</h5>
+                                <p class="text-muted">Full Stack Developer</p>
+                                <p>Responsible for building the web application and integrating the AI models.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 
